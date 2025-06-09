@@ -1,5 +1,6 @@
 import React from 'react';
 import PricingCard from './pricingCard';
+import Dashboard from './dashboard';
 
 const Home: React.FC = () => {
   const pricingPlans = [
@@ -47,7 +48,7 @@ const Home: React.FC = () => {
           <li>Contact</li>
         </ul>
       </nav>
-
+      <Dashboard></Dashboard>
       <div className='flex flex-col items-center p-4 bg-gray-900 min-h-screen'>
         {' '}
         <h1 className='text-3xl font-bold text-white mb-8'>Pricing</h1>{' '}
